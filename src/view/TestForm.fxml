@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root2" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TestFormController">
+   <children>
+      <Label layoutX="191.0" layoutY="28.0" prefHeight="17.0" prefWidth="170.0" text="Test Form" textFill="#5700f8">
+         <font>
+            <Font name="Bell MT Bold" size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="67.0" mnemonicParsing="false" onAction="#btnHelloJavaOnAction" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #2c3e50;" text="Hello Java" textFill="WHITE">
+         <font>
+            <Font name="AdobeDevanagari-Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="txtTypeSomething" layoutX="72.0" layoutY="128.0" onAction="#txtSomethingOnAction" prefHeight="25.0" prefWidth="417.0" promptText="Type Something Here.........." />
+      <Button fx:id="btnClick" layoutX="361.0" layoutY="173.0" mnemonicParsing="false" onAction="#btnClickOnAction" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #2c3e50;" text="click" textFill="WHITE">
+         <font>
+            <Font name="AdobeDevanagari-Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="lblSample" layoutX="72.0" layoutY="247.0" prefHeight="55.0" prefWidth="417.0" textFill="#d35400">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="361.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnClcearOnAction" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #2c3e50;" text="Clear Text Field" textFill="WHITE">
+         <font>
+            <Font name="AdobeDevanagari-Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnHide" layoutX="14.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnHideOnAction" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #d35400;" text="Hide" textFill="WHITE">
+         <font>
+            <Font name="AdobeDevanagari-Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnShow" layoutX="100.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnShowOnAction" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #2ecc71;" text="Show" textFill="WHITE">
+         <font>
+            <Font name="AdobeDevanagari-Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="98.0" fitWidth="181.0" layoutX="408.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pexels-scott-webb-174752.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="191.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #2c3e50;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="AdobeDevanagari-Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
